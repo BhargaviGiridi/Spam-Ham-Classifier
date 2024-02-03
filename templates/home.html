@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css"  href="static/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<h1>SPAM HAM CLASSIFIER</h1>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="/predict" method="POST">
+		<h3>Enter Your Message/Mail Here which you want to predict Spam or Ham</h3>
+		<textarea name="message" rows="6" cols="50" placeholder="Enter Your Message..." ></textarea>
+		<br/>
+
+		<input type="Submit" class="btn-info" value="Predict">
+		
+	</form>
+		
+	</div>
+</body>
+</html>
